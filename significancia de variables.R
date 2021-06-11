@@ -16,15 +16,12 @@ library(caret)
 #Leemos el archivo descargado
 df<- read.csv("datos.csv")
 
-
-
 #AJUSTE DE MODELO -----
 #attach(df)
 #str(df)
 #Modelo 1 ---- incluye la mayoria de las variables del DF
 mod1<-glm(enfermedad_cardiaca~edad+presion_sistolica+sexo+presion_sistolica+
             colesterol+glucosa+fumador+alcoholico+actividad_fisica+peso+altura+imc,family = binomial(),df)
-
 summary(mod1)
 
 

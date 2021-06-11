@@ -31,8 +31,7 @@ summary(mod1)
 #STEP Nos da un mejor modelo considerando un AIC menor (Criterio de información de Akaike)
 step(mod1, test="LRT")
 
-
-
+# De acuerdo con lo anterior creamos el modelo "final" con las variables significativas para poder replicarlo
 mod2<-glm(enfermedad_cardiaca~edad+presion_sistolica+colesterol+glucosa+fumador+alcoholico+
             actividad_fisica+peso+altura,family=binomial(),df)
 summary(mod2)

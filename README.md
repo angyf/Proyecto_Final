@@ -4,4 +4,4 @@
 
 [Identificación variables significativas](https://github.com/angyf/Proyecto_Final/blob/main/significancia%20de%20variables.R)
 
-[Creación y elección del modelo clasificador]()
+[Creación y elección del modelo clasificador](https://github.com/angyf/Proyecto_Final/blob/main/modelos_finales.ipynb)
